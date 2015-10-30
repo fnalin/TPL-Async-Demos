@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="DemoAsyncSis.TemperaturaWS.TempService" CodeBehind="TempService.svc.cs" %>

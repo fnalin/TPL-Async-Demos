@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f5658a4-730b-45a0-8a84-861eb43fecb7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57226/TempService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TempService.disco" MetadataType="Disco" ID="b36044f4-b37d-4aa6-8730-896003c61b8b" SourceId="1" SourceUrl="http://localhost:57226/TempService.svc?disco" />
+    <MetadataFile FileName="TempService.wsdl" MetadataType="Wsdl" ID="81492a22-166e-4d56-8b2f-a9bd2c2f0c2f" SourceId="1" SourceUrl="http://localhost:57226/TempService.svc?wsdl" />
+    <MetadataFile FileName="TempService.xsd" MetadataType="Schema" ID="4c9bcd11-2c65-446a-ab16-4c09847751e7" SourceId="1" SourceUrl="http://localhost:57226/TempService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TempService1.xsd" MetadataType="Schema" ID="77ff33ae-80bf-4505-8b76-6cde7ed64c8d" SourceId="1" SourceUrl="http://localhost:57226/TempService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TempService2.xsd" MetadataType="Schema" ID="79eec576-d140-4983-bd7c-6b29f9fff98b" SourceId="1" SourceUrl="http://localhost:57226/TempService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
